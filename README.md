@@ -45,5 +45,7 @@ Hard difficulty: 4x4 puzzle swapper. Given the following 4x4 array containing th
 
 Sort them so that they are in sequence:
 {{1  ,2  ,3  ,4  },
-{5  ,6  ,7  ,8  },       {9  ,10,11,12},       {13,14,15,16}}
+{5  ,6  ,7  ,8  },  
+{9  ,10,11,12},
+{13,14,15,16}}
 
