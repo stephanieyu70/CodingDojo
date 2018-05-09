@@ -5,9 +5,6 @@ import org.junit.jupiter.api.Test;
 import static com.au.lebrese.kata1.ReverseFactorial.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Created by u336571 on 25/10/2017.
- */
 class ReverseFactorialTest {
 
     @Test
