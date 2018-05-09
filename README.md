@@ -49,3 +49,22 @@ Sort them so that they are in sequence:
 {9  ,10,11,12},
 {13,14,15,16}}
 
+Stacks
+Easy difficulty. Octal conversion. Write a program that takes a number and converts it to its Octal equivalent (base 8 number system).
+Testing example: Given 98510 becomes 17318
+Given 810 becomes 108
+Given 133710 becomes 24718
+Given 710 becomes 78. 
+
+Easy difficulty. Balanced parentheses.  Balanced Parentheses
+Given a string of Parentheses (e.g. {[()]} ) write a program that will return true or false if the string has a balanced set of parentheses.
+Implement using a stack.
+Testing examples
+Given ( ) return true
+Given { ( } ) return true
+Given { ( [ ) } return false (Missing ] )
+
+
+
+
+
