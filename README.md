@@ -50,6 +50,7 @@ Sort them so that they are in sequence:
 {13,14,15,16}}
 
 Stacks
+
 Easy difficulty. Octal conversion. Write a program that takes a number and converts it to its Octal equivalent (base 8 number system).
 Testing example: Given 98510 becomes 17318
 Given 810 becomes 108
