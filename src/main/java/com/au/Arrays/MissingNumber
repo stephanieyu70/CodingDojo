@@ -1,0 +1,21 @@
+package com.au.Arrays;
+
+public class MissingNumber {
+
+    public static int findMissingNumber(int[] inputArray) {
+
+        int sumOfArray = IntStream.of(inputArray).sum();
+
+        int lowestNumber = inputArray[0];
+        int highestNumber = inputArray[inputArray.length-1];
+        int properSum = 0;
+
+        for (int i = lowestNumber; i <= highestNumber; i++) {
+            properSum += i;
+        }
+
+        int missingNumber = properSum - sumOfArray;
+
+        return missingNumber;
+    }
+}
