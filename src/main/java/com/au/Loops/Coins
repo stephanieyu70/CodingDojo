@@ -1,6 +1,6 @@
 package com.au.Loops;
 
-public class Penny {
+public class Coins {
 
     public static int penny(int n) {
 
