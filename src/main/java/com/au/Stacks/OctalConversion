@@ -1,0 +1,24 @@
+package com.au.Stacks;
+
+public class OctalConversion {
+
+    public static int convertToOctal(int inputNumber) {
+
+        Stack<Integer> octalStack = new Stack();
+
+        while (inputNumber > 0) {
+            int digit = inputNumber % 8;
+            octalStack.push(digit);
+            inputNumber = inputNumber / 8;
+        }
+
+        StringBuilder number = new StringBuilder();
+
+        while (!octalStack.empty()) {
+            int digit = octalStack.pop();
+            number.append(digit);
+        }
+
+        return Integer.parseInt(number.toString());
+    }
+}
