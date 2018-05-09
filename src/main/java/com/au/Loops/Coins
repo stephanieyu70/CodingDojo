@@ -1,0 +1,17 @@
+package com.au.Loops;
+
+public class Penny {
+
+    public static int penny(int n) {
+
+        int totalAmount = 0;
+
+        for (int i = 1; i <= n; i++) {
+
+            totalAmount = totalAmount + (i * 5);
+
+        }
+
+        return totalAmount;
+    }
+}
