@@ -1,0 +1,52 @@
+package com.au.Loops;
+
+import org.junit.jupiter.api.Test;
+
+import static com.au.lebrese.kata1.ReverseFactorial.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ * Created by u336571 on 25/10/2017.
+ */
+class ReverseFactorialTest {
+
+    @Test
+    void shouldReturn5for120() {
+        //Given
+        int expectedResult = 5;
+        int numberToBeReverse = 120;
+
+        //When
+        int actualResult = reverseFactorial(numberToBeReverse);
+
+        //Then
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    void shouldReturn8for40320() {
+        //Given
+        int expectedResult = 8;
+        int numberToBeReverse = 40320;
+
+        //When
+        int actualResult = reverseFactorial(numberToBeReverse);
+
+        //Then
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    void shouldReturnMinus1for1234567891() {
+        //Given
+        int expectedResult = -1;
+        int numberToBeReverse = 1234567891;
+
+        //When
+        int actualResult = reverseFactorial(numberToBeReverse);
+
+        //Then
+        assertEquals(expectedResult, actualResult);
+    }
+
+}
