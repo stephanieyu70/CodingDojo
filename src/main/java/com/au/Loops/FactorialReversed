@@ -1,0 +1,21 @@
+package com.au.Loops;
+
+public class FactorialReversed {
+
+    public static int reverseFactorial(int numberToReverse) {
+        int counter = 1;
+
+        while (counter > 0) {
+            numberToReverse = numberToReverse / counter;
+            if (numberToReverse == 1) {
+                return counter;
+            } else if(numberToReverse < 1) {
+                counter = 0;
+            }
+            else {
+                counter++;
+            }
+        }
+        return -1;
+    }
+}
