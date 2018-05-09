@@ -3,6 +3,7 @@
 Problems
 
 Loops
+
 Easy difficulty: Given the number of days, calculate the amount of money a person would make if they received 5c on the first day, 10c on the second, 15c on the 3rd etc.
 Testing example: Given 3 days the result would be 30c
                  Given 15 days the result would be 600c
@@ -29,5 +30,20 @@ Testing example: Based on the image if given *8,c) on the left the solution woul
 
 
 Arrays
+
 Easy difficulty: Given an array, reverse the order of the array.
 Testing examples: Given {1,2,3} result is {3,2,1}. Given {"bread", "butter","bacan"} the result is {"bacon","butter","bread"}
+
+Medium difficukty: Finding duplicates. Given an array integars output the most common value found in said array and return it in an array.
+Testing example: Given {3,1,2,3,2} the result would be {2,3}
+
+Hard difficulty: 4x4 puzzle swapper. Given the following 4x4 array containing the number 1 to 16:
+{{4,6,2,14},       
+{15,8,13,1},      
+{10,5,9,12},   
+{7,11,16,3}}
+
+Sort them so that they are in sequence:
+{{1  ,2  ,3  ,4  },
+{5  ,6  ,7  ,8  },       {9  ,10,11,12},       {13,14,15,16}}
+
